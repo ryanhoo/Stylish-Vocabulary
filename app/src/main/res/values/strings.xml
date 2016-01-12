@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StylishVocabulary</string>
+    <string name="searching">Searching…</string>
+    <string name="blurbs">Blurbs</string>
+    <string name="search_text_hint">Expand your vocabulary here…</string>
+    <string name="search_text_hint_smart">hello… words</string>
+</resources>
