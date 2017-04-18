@@ -33,9 +33,20 @@
             android:layout_height="2dp"
             android:layout_marginTop="4dp"
             android:layout_marginBottom="4dp"
-            android:background="#f1f1f1"
+            android:background="@color/colorPrimary"
             />
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin">
         <TextView
             android:id="@+id/text_view_blurb_short"
             android:layout_width="match_parent"
@@ -55,6 +66,8 @@
             tools:targetApi="jelly_bean"
             tools:text="Hello! Hi! How are you doing? Hello is a salutation or greeting commonly used to begin conversations or telephone calls."
             />
+        </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
     <FrameLayout
